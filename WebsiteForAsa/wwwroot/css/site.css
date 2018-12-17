@@ -35,3 +35,45 @@ body {
         display: none;
     }
 }
+
+/*Courses Page*/
+.content-inner {
+    padding: 20px 8% 100px
+}
+
+.pic-inner{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.pic{
+    max-width:90%;
+    height:auto;
+}
+
+
+
+/*About Page*/
+#about-header {
+    background-attachment: scroll;
+    background-image: url(../images/pic1.png);
+}
+
+.my-xl-6 {
+    margin-top: 4.5rem !important;
+    margin-bottom: 4.5rem !important
+}
+
+.secondary-navbar {
+    z-index: 600;
+    border: none;
+    min-height: 48px;
+}
+
+.position-sticky {
+    top: 0px;
+    position: sticky;
+}
+
+.font-weight-bold {
+    font-weight: 700
+}

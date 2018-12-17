@@ -26,13 +26,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">WebsiteForAsa</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">阿萨让做的网站</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                    <li><a asp-area="" asp-controller="About" asp-action="Index">About</a></li>
+                    <li><a asp-area="" asp-controller="Courses" asp-action="Index">Courses</a></li>
+                    <li><a asp-area="" asp-controller="PortfolioPrep" asp-action="Index">Portfolio Prep</a></li>
+                    <li><a asp-area="" asp-controller="Gallery" asp-action="Index">Gallery</a></li>
+                    <li><a asp-area="" asp-controller="Outsourcing" asp-action="Index">Outsourcing</a></li>
+                    <li><a asp-area="" asp-controller="Contact" asp-action="Index">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -44,7 +48,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2018 - WebsiteForAsa</p>
+            <p>&copy; 阿萨让做的网站</p>
         </footer>
     </div>
 
