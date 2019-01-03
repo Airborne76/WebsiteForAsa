@@ -80,3 +80,24 @@ body {
 .font-weight-bold {
     font-weight: 700
 }
+.d-md-flex{
+    display:flex!important;
+}
+
+.about-school-bg {
+    background: url(../images/tom.jpg) no-repeat 50% center;
+    background-size:cover;
+    min-height:505px;
+}
+
+.px-0 {
+    padding-right: 0px !important;
+}
+
+.px-lg-6 {
+    padding-left: 4.5rem !important;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
