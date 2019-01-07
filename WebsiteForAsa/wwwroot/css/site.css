@@ -41,24 +41,35 @@ body {
     padding: 20px 8% 100px
 }
 
-.pic-inner{
-    margin-top:5px;
-    margin-bottom:5px;
+.pic-inner {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
-.pic{
-    max-width:90%;
-    height:auto;
+
+.pic {
+    max-width: 90%;
+    height: auto;
 }
 
 
 
 /*About Page*/
+#about-header, section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    position: relative
+}
+
 #about-header {
     background-attachment: scroll;
     background-image: url(../images/pic1.png);
-    background-repeat:no-repeat;
-    background-size:100%;
-    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+#content{
+    margin-top:5px;
 }
 
 .my-xl-6 {
@@ -69,7 +80,7 @@ body {
 .secondary-navbar {
     z-index: 600;
     border: none;
-    min-height: 48px;
+    min-height: 50px;
 }
 
 .position-sticky {
@@ -80,14 +91,15 @@ body {
 .font-weight-bold {
     font-weight: 700
 }
-.d-md-flex{
-    display:flex!important;
-}
 
+.d-md-flex {
+    display: flex !important;
+}
 .about-school-bg {
+    margin:0;
     background: url(../images/tom.jpg) no-repeat 50% center;
-    background-size:cover;
-    min-height:505px;
+    background-size: cover;
+    min-height: 505px;
 }
 
 .px-0 {
@@ -101,3 +113,7 @@ body {
 .mt-5 {
     margin-top: 3rem !important;
 }
+
+.divcss {
+    word-wrap: break-word
+} 
