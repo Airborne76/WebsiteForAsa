@@ -12,6 +12,16 @@ body {
     padding-right: 15px;
 }
 
+.pic-full {
+    max-width: 100%;
+    height: auto;
+}
+
+.width-full {
+    width: 100% !important;
+}
+
+
 /* Carousel */
 .carousel-caption p {
     font-size: 20px;
@@ -50,6 +60,8 @@ body {
     max-width: 90%;
     height: auto;
 }
+
+
 
 
 
