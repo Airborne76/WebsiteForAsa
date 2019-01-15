@@ -1,8 +1,26 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
 for details on configuring this project to bundle and minify static web assets. */
 body {
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 20px;
+}
+
+a {
+    color: #0085bd;
+    text-decoration: none
+}
+
+a:hover {
+    color: #60a5dd;
+    text-decoration: none
+}
+
+a:focus {
+    outline: thin dotted
+}
+
+a:hover, a:active {
+    outline: 0
 }
 
 /* Wrapping element */
@@ -21,6 +39,61 @@ body {
     width: 100% !important;
 }
 
+.headerWrapper{
+    position:fixed;
+    width:100%;
+    bottom:20px;
+    background-color:rgba(17,17,17,0.7);
+}
+
+#header{
+    padding:30px 0px;    
+}
+
+.logoContent {
+    
+    background-attachment: scroll;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left;
+    min-height:70px;
+
+}
+
+
+#topNav nav {
+    position: relative;
+    bottom: -3px;
+    margin-top: 0;
+    float: left
+}
+#topNav nav li {
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+    text-align: right
+}
+#topNav .main-nav a:hover {
+    color: #fff
+}
+#topNav .main-nav a,#topNav .main-nav a:visited {
+    color: #aaa
+}
+#topNav nav li a:hover {
+    color: #000
+}
+
+
+
+pre, ul, ol, dl {
+    font-family: "Helvetica",arial,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.6em;
+    letter-spacing: 0px;
+    margin: 1em 0
+}
 
 /* Carousel */
 .carousel-caption p {
