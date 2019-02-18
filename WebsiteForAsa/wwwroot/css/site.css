@@ -181,8 +181,8 @@ pre, ul, ol, dl {
     display: flex !important;
 }
 .about-school-bg {
-    margin:0;
-    background: url(../images/tom.jpg) no-repeat 50% center;
+    margin: 0;
+    background: url(../images/Laelaps_Location.jpg) no-repeat 50% center;
     background-size: cover;
     min-height: 505px;
 }
@@ -201,4 +201,12 @@ pre, ul, ol, dl {
 
 .divcss {
     word-wrap: break-word
-} 
+}
+
+.text_card {
+    font-family: News706BT-RomanC,Georgia,Times New Roman,Times,serif;
+    letter-spacing: .01em
+}
+.font-size-16 {
+    font-size: 16px !important
+}
