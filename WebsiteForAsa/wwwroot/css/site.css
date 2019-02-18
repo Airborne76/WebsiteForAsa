@@ -1,7 +1,7 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
 for details on configuring this project to bundle and minify static web assets. */
 body {
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 20px;
 }
 
@@ -134,10 +134,6 @@ pre, ul, ol, dl {
     height: auto;
 }
 
-
-
-
-
 /*About Page*/
 #about-header, section {
     background-repeat: no-repeat;
@@ -145,7 +141,6 @@ pre, ul, ol, dl {
     background-position: 50%;
     position: relative
 }
-
 #about-header {
     background-attachment: scroll;
     background-image: url(../images/pic1.png);
@@ -156,29 +151,26 @@ pre, ul, ol, dl {
 #content{
     margin-top:5px;
 }
-
 .my-xl-6 {
     margin-top: 4.5rem !important;
     margin-bottom: 4.5rem !important
 }
-
 .secondary-navbar {
     z-index: 600;
     border: none;
     min-height: 50px;
 }
-
 .position-sticky {
     top: 0px;
     position: sticky;
 }
-
 .font-weight-bold {
     font-weight: 700
 }
-
-.d-md-flex {
+@media (min-width:992px){ 
+    .d-md-flex {
     display: flex !important;
+    }
 }
 .about-school-bg {
     margin: 0;
@@ -186,23 +178,18 @@ pre, ul, ol, dl {
     background-size: cover;
     min-height: 505px;
 }
-
 .px-0 {
     padding-right: 0px !important;
 }
-
 .px-lg-6 {
     padding-left: 4.5rem !important;
 }
-
 .mt-5 {
     margin-top: 3rem !important;
 }
-
 .divcss {
     word-wrap: break-word
 }
-
 .text_card {
     font-family: News706BT-RomanC,Georgia,Times New Roman,Times,serif;
     letter-spacing: .01em
@@ -210,3 +197,14 @@ pre, ul, ol, dl {
 .font-size-16 {
     font-size: 16px !important
 }
+.over_content {
+    display: flex
+}
+.over_content-centered {
+    justify-content: center
+}
+.content-img {
+    max-width: 50%;
+    height: 150px;
+}
+

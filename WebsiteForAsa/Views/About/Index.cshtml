@@ -34,19 +34,19 @@
                     </h3>
                     <p class="divcss text_card font-size-16">
                         Laelaps Design Academy, headquartered in Orange County, California, is a leading school of concept art,
-                        illustration, and entertainment design with a single focus: helping students around the world to learn 
-                        and reach their artistic & professional goals. We work collaboratively with a wealth of industry-top 
-                        artists from most major studios and best art & design schools to provide comprehensive 
+                        illustration, and entertainment design with a single focus: helping students around the world to learn
+                        and reach their artistic & professional goals. We work collaboratively with a wealth of industry-top
+                        artists from most major studios and best art & design schools to provide comprehensive
                         courses/workshops and customized consulting services for all types and levels of experience.
                     </p>
                     <p class="divcss text_card font-size-16">
                         We understand every student has different background, personality, and unique talent, and Laelaps is
-                        your trusted instructor and mentor. Whether helping you become a better artist, keeping you up to date 
-                        on emerging trends and techniques in the industry or empowering you with the knowledge and tools 
-                        you will need to supplement your college studies and land your next job, once you partner with us, we 
+                        your trusted instructor and mentor. Whether helping you become a better artist, keeping you up to date
+                        on emerging trends and techniques in the industry or empowering you with the knowledge and tools
+                        you will need to supplement your college studies and land your next job, once you partner with us, we
                         will focus our passion, knowledge, professionalism and carefulness and deliver the best solution for you.
-                        What we offer students is truly the ability and the opportunities to nurture and expand their artistic and 
-                        design senses, skills, and vision, and make their dreams a reality. We believe student success is our 
+                        What we offer students is truly the ability and the opportunities to nurture and expand their artistic and
+                        design senses, skills, and vision, and make their dreams a reality. We believe student success is our
                         success - and it’s obvious in everything we do at Laelaps.
                     </p>
 
@@ -55,11 +55,45 @@
         </section>
     </div>
     <div class="tab-pane fade" id="About-Lnstructors">
-        <p>
-            About Lnstructors内容000000000000000000000000000000000000000000000000000000000000000000000000000000
-            000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-            000000
-        </p>
+        <section class="container">
+            <div class="content-inner">
+                <div class="row">
+                    @foreach (var item in ViewData["teachers"] as List<Teacher>)
+                    {
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="pic-inner">
+                                <article>
+                                    <header class="over_content-centered over_content ">
+                                        <img class="content-img  img-circle" src="@item.Img" />
+                                    </header>
+                                    <div>
+                                        <h4>@item.Name</h4>
+                                        <p>
+                                            <b>Current:</b>
+                                            @item.Current
+                                        </p>
+                                        <p>
+                                            @if (!string.IsNullOrEmpty(item.Education))
+                                            {
+                                                <b>Education:</b>
+                                                @item.Education
+                                            }
+                                        </p>
+                                        <p>
+                                            @if (!string.IsNullOrEmpty(item.Previous))
+                                            {
+                                                <b>Previous:</b>
+                                                @item.Previous
+                                            }
+                                        </p>                                            
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </section>
     </div>
 </div>
 
