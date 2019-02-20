@@ -13,6 +13,18 @@ namespace WebsiteForAsa.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
+            Dictionary<string, string> Courses = new Dictionary<string, string>()
+            {
+                {"ENVIRONMENT DESIGN","/images/Courses/1.png" },
+                {"ADVANCED ENVIRONMENT DESIGN","/images/Courses/2.png" },
+                {"CHARACTER DESIGN I","/images/Courses/3.png" },
+                {"CHARACTER DESIGN II","/images/Courses/4.jpg" },
+                {"FUNDAMENTALS OF CHARACTER DESIGN","/images/Courses/5.jpg" },
+                {"WEAPONS & PROPS FOR GAMES","/images/Courses/6.png" },
+                {"ENTERTAINMENT DEISGN","/images/Courses/7.png" },
+                {"ADVANCED MENTORSHIP","/images/Courses/8.png" }
+            };
+            ViewData["list"] = Courses;
             return View();
         }
     }

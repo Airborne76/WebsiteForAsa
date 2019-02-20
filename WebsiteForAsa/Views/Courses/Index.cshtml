@@ -7,13 +7,14 @@
 <br />
 <section>
     <div class="container">
-        <div class="content-inner">
+        <div class="">
             <div class="row">
-                @for (int i = 0; i < 13; i++)
+                @foreach (var item in ViewData["list"]as Dictionary<string,string>)
                 {
                     <div class="col-xs-12 col-sm-6 col-md-3 table-bordered">
-                        <div class="pic-inner over_content over_content-centered">
-                            <img class="pic" src="~/images/tom.jpg" />
+                        <div class="pic-inner over_content over_content-centered div-relative ">
+                            <img class="pic-courses div-child" src="@item.Value" />
+                            <p class="div-child-text">@item.Key</p>
                         </div>
                     </div>
                 }

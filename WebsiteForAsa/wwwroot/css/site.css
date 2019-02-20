@@ -208,3 +208,25 @@ pre, ul, ol, dl {
     height: 150px;
 }
 
+/*Courses*/
+.pic-courses {
+    max-width: 100%;
+    height: auto;
+}
+
+.div-relative {
+    position: relative;
+    min-height: 160px;
+}
+.div-child{
+    position:absolute;
+}
+.div-child-text {
+    position: absolute;
+    top: 50%;
+    color: aliceblue;
+    font-size: 14px;
+    font-family: Titillium Web;
+    text-shadow:2px 2px 4px #2f2d2d;
+}
+
