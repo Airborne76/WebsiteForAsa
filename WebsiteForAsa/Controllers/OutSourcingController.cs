@@ -13,7 +13,8 @@ namespace WebsiteForAsa.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            return View();
+            return Redirect("http://www.laelapsdesign.com");
+            //return View();
         }
     }
 }
