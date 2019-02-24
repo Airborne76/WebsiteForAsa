@@ -16,5 +16,10 @@ namespace WebsiteForAsa.Controllers
             ViewData["Message"] = "Contact page.";
             return View();
         }
+
+        public ActionResult Submit(string name,string company,string address,string city,string state,string zipCode,string email,string questions)
+        {
+            return View("Index");
+        }
     }
 }

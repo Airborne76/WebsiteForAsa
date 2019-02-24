@@ -4,52 +4,42 @@ body {
     padding-top: 30px;
     padding-bottom: 20px;
 }
-
 a {
     color: #0085bd;
     text-decoration: none
 }
-
 a:hover {
     color: #60a5dd;
     text-decoration: none
 }
-
 a:focus {
     outline: thin dotted
 }
-
 a:hover, a:active {
     outline: 0
 }
-
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
 }
-
 .pic-full {
     max-width: 100%;
     height: auto;
 }
-
 .width-full {
     width: 100% !important;
 }
-
 .headerWrapper{
     position:fixed;
     width:100%;
     bottom:20px;
     background-color:rgba(17,17,17,0.7);
 }
-
 #header{
     padding:30px 0px;    
 }
-
 .logoContent {
     
     background-attachment: scroll;
@@ -60,8 +50,6 @@ a:hover, a:active {
     min-height:70px;
 
 }
-
-
 #topNav nav {
     position: relative;
     bottom: -3px;
@@ -83,9 +71,6 @@ a:hover, a:active {
 #topNav nav li a:hover {
     color: #000
 }
-
-
-
 pre, ul, ol, dl {
     font-family: "Helvetica",arial,sans-serif;
     font-weight: normal;
@@ -94,7 +79,6 @@ pre, ul, ol, dl {
     letter-spacing: 0px;
     margin: 1em 0
 }
-
 /* Carousel */
 .carousel-caption p {
     font-size: 20px;
@@ -123,12 +107,10 @@ pre, ul, ol, dl {
 .content-inner {
     padding: 20px 8% 100px
 }
-
 .pic-inner {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
 .pic {
     max-width: 90%;
     height: auto;
@@ -160,8 +142,10 @@ pre, ul, ol, dl {
     border: none;
     min-height: 50px;
 }
+
+
 .position-sticky {
-    top: 0px;
+    top: 50px;
     position: sticky;
 }
 .font-weight-bold {
@@ -204,7 +188,7 @@ pre, ul, ol, dl {
     justify-content: center
 }
 .content-img {
-    max-width: 50%;
+    /*max-width: 50%;*/
     height: 150px;
 }
 
@@ -213,9 +197,9 @@ pre, ul, ol, dl {
     max-width: 100%;
     height: auto;
 }
-
 .div-relative {
     position: relative;
+    overflow:hidden;
     min-height: 160px;
 }
 .div-child{
@@ -229,4 +213,57 @@ pre, ul, ol, dl {
     font-family: Titillium Web;
     text-shadow:2px 2px 4px #2f2d2d;
 }
+.page-title{
+    color:#605c5c;
+    font-size:48px;
+    font-weight:600;
+    font-style:normal;
+}
+
+/*GALLERY*/
+.OrangeCallout {
+    padding: 15px 22px 15px 22px;
+    background-color: #ffffff;
+    border-left: solid 1px #ff9900;
+    border-right: solid 1px #ff9900;
+    border-bottom: solid 1px #ff9900;
+    font-size: 12px;
+    color: #cc6600;
+    font-family: Lucida Grande, Arial
+}
+.OrangeCallout2 {
+    padding: 15px 22px 15px 22px;
+    background-color: #ffffff;
+    border-left: solid 1px #0ed145;
+    border-right: solid 1px #0ed145;
+    border-bottom: solid 1px #0ed145;
+    font-size: 12px;
+    color: #0ed145;
+    font-family: Lucida Grande, Arial
+}
+
+
+/*Contact*/
+.Contact-Top{
+    margin-top:60px;
+}
+
+.Contact-block{
+    width:285px;
+}
+.line-block {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.line-block .line {
+    border-bottom: solid 1px #dcdcdc;
+}
+
+.require-star{
+    color:red;
+    margin-left:3px;
+}
+
+
+
 
