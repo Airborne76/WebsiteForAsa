@@ -19,8 +19,7 @@ namespace WebsiteForAsa.Controllers
         }
 
         public ActionResult Submit(string name,string company,string address,string city,string state,string zipCode,string email,string questions)
-        {
-            
+        {            
             MailService.GetInstance().SendMail();
             return View("Index");
         }
